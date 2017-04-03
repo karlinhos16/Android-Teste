@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:text=" Nome: Tony Stark"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/txtFone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Fone:(81)9200-0029"
+            android:textSize="18sp" />
+
+        <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Rua: Dom Pedro 1"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtFone"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+        android:id="@+id/txtface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEnd"
+        android:layout_marginTop="20dp"
+        android:text="Site: www.facebook.com/marvel"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtnota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtface"
+        android:layout_marginTop="20dp"
+        android:text="Nota: 10.0"
+        android:textSize="18sp" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/tony"
+            android:layout_marginStart="37dp"
+            android:layout_alignBottom="@+id/txtFone"
+            android:layout_toEndOf="@+id/txtFone" />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
