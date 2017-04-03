@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Exercicio02</string>
+    <string name="titulo"> Olá estudante!</string>
+    <string name="adcionar">Adicionar</string>
+    <string name="nome"> Nome:</string>
+    <string name="endereco"> Endereço:</string>
+    <string name="telefone"> Fone:</string>
+    <string name="site"> Rede Social:</string>
+</resources>
